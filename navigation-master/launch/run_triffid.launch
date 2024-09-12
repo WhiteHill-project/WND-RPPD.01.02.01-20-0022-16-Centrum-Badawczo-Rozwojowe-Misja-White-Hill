@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find rplidar_ros)/launch/rplidar.launch"></include>    
+    <node name="mouse_footprint_to_base_footprint" pkg="tf" type="static_transform_publisher" args="0.0 0.0 0.0 0.0 0.0 0.0 mouse_footprint base_footprint 200"/>
+    <node name="base_footprint_camera_frame" pkg="tf" type="static_transform_publisher" args="0.0 0.0 1.2 0.0 0.0 0.0 base_footprint camera_frame 200"/>
+    <node name="triffid_odom_mouse_footprint_broadcaster" pkg="navigation" type="triffid_odom_mouse_footprint_broadcaster.py" output="screen" />
+    <node name="triffid_odom_base_footprint_publisher" pkg="navigation" type="triffid_odom_base_footprint_publisher.py" output="screen" />
+    <node name="laser_publisher" pkg="tf" type="static_transform_publisher" args="0.0 0.0 0.48 3.14159 0.0 0.0 base_footprint laser 200"/>
+    <include file="$(find navigation)/launch/laser_filter.launch"></include>
+</launch>

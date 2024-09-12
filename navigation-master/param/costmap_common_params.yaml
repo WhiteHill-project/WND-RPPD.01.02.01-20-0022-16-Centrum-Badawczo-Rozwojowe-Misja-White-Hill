@@ -1,0 +1,23 @@
+#obstacle_range: 6.0
+#raytrace_range: 8.5
+#footprint: [[0.43, 0.70], [0.43, -0.70], [-0.43, -0.70], [-0.43, 0.70]]
+#map_topic: /map
+#subscribe_to_updates: true
+#observation_sources: laser_scan_sensor
+#laser_scan_sensor: {sensor_frame: laser, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+#global_frame: map
+#robot_base_frame: base_footprint
+#always_send_full_costmap: true
+
+obstacle_range: 3.0
+raytrace_range: 8.5
+
+footprint: [[0.65, 0.45], [0.65, -0.45], [-0.65, -0.45], [-0.65, 0.45]]
+
+inflation_radius: 0.75
+cost_scaling_factor: 2
+
+map_type: costmap
+obstacle_layer:
+    observation_sources: laser
+    laser: {data_type: LaserScan, clearing: true, marking: true, topic: /scan_filtered, inf_is_valid: true}

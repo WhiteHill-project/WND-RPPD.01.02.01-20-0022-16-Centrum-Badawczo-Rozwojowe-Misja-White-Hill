@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find navigation)/launch/run_triffid.launch"></include>
+    <include file="$(find navigation)/launch/triffid_motor_controller.launch"></include>
+    <include file="$(find navigation)/launch/mapping.launch"></include>
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find navigation)/rviz/mapping.rviz" />
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+
+    <include file="$(find navigation)/launch/gmapping.launch"></include>
+
+</launch>

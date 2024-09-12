@@ -1,0 +1,167 @@
+# C
+?trn
+TRN=RCB100M:FLW100
+?FID
+FID=Roboteq v1.1 FLW100 02/05/2019
+?lk
+LK=0
+%UK 0
++
+~CCFG
+CCFG=2:0
+%UK 0
++
+~MMOD
+MMOD=0
+%UK 0
++
+~TZER
+TZER=1000:1000
+%UK 0
++
+~CEN
+CEN=0
+%UK 0
++
+~CBR
+CBR=3
+%UK 0
++
+~CNOD
+CNOD=6
+%UK 0
++
+~CLSN
+CLSN=4
+%UK 0
++
+~CHB
+CHB=100
+%UK 0
++
+~CSRT
+CSRT=100
+%UK 0
++
+~CTPS
+CTPS=0:0:0:0
+%UK 0
++
+~CTT
+CTT=255:255:255:255
+%UK 0
++
+~CAS
+CAS=0
+%UK 0
++
+~PWMM
+PWMM=0
+%UK 0
++
+~EPPR
+EPPR=1:1
+%UK 0
++
+~EQS
+EQS=0
+%UK 0
++
+~ZMT
+ZMT=1
+%UK 0
++
+~KP
+KP=1
+%UK 0
++
+~KI
+KI=0
+%UK 0
++
+~BRUN
+BRUN=0
+%UK 0
++
+~SCRO
+SCRO=0
+%UK 0
++
+~CCFG
+CCFG=2:0
+%UK 0
++
+~MMOD
+MMOD=0
+%UK 0
++
+~TZER
+TZER=1000:1000
+%UK 0
++
+~CEN
+CEN=0
+%UK 0
++
+~CBR
+CBR=3
+%UK 0
++
+~CNOD
+CNOD=6
+%UK 0
++
+~CLSN
+CLSN=4
+%UK 0
++
+~CHB
+CHB=100
+%UK 0
++
+~CSRT
+CSRT=100
+%UK 0
++
+~CTPS
+CTPS=0:0:0:0
+%UK 0
++
+~CTT
+CTT=255:255:255:255
+%UK 0
++
+~CAS
+CAS=0
+%UK 0
++
+~PWMM
+PWMM=0
+%UK 0
++
+~EPPR
+EPPR=1:1
+%UK 0
++
+~EQS
+EQS=0
+%UK 0
++
+~ZMT
+ZMT=1
+%UK 0
++
+~KP
+KP=1
+%UK 0
++
+~KI
+KI=0
+%UK 0
++
+~BRUN
+BRUN=0
+%UK 0
++
+~SCRO
+SCRO=0

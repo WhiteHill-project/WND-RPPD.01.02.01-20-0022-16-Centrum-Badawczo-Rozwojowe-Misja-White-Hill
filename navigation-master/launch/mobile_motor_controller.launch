@@ -1,0 +1,3 @@
+<launch>
+  <node name="triffid_motor_controller" pkg="navigation" type="triffid_motor_controller.py" output="screen" />
+</launch>

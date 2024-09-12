@@ -1,0 +1,3 @@
+<launch>
+  <node name="triffid_odom_base_footprint_publisher" pkg="navigation" type="triffid_odom_base_footprint_publisher.py" output="screen" />
+</launch>

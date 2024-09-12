@@ -1,0 +1,3 @@
+<launch>
+  <node name="triffid_odom_mouse_footprint_broadcaster" pkg="navigation" type="triffid_odom_mouse_footprint_broadcaster.py" output="screen" />
+</launch>
