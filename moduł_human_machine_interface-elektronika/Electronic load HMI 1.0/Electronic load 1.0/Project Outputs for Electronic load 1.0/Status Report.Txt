@@ -1,0 +1,15 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 14:25:30 On 14.06.2019
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [STD] of Project [Electronic load 1.0.PrjPcb]
+   Generated File[Bill of Materials-Electronic load 1.0(STD).xlsx]
+   Generated File[Bill of Materials-Electronic load 1.0(STD).xlsx]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 14:25:31 On 14.06.2019
