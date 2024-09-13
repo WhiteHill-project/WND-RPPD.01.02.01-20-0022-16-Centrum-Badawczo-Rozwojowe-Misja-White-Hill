@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: E:\PROJEKTY\WHITEHILL\Electronic load HMI 1.0\Pcb\Electronic load HMI 1.0.PcbDoc
+RuleKind=Clearance|RuleName=Track|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_1|Scope=Board|Minimum=-100.00
+RuleKind=Clearance|RuleName=poly|Scope=Board|Minimum=9.00
+RuleKind=Clearance|RuleName=ANT|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=led|Scope=Board|Minimum=5.90
+RuleKind=Clearance|RuleName=kwarc|Scope=Board|Minimum=6.00
