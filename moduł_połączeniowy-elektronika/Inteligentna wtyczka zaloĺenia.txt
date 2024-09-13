@@ -1,0 +1,9 @@
+- wtyczka bazuje na technologii amass 4 pin lub 2 pin
+- pomiar pradu, napięcia mocy,harmonicznych
+- dane wyprowadzane za pomoca izolowanego can lub lin
+- układ antispark
+- układ inrush current limit
+- pomiar temperatury
+- parametryzowany e fuse
+- kodowanie wtyczki
+- wyjscie obudowy 2 przepusty metalowe lub 1 o róznych wkładach

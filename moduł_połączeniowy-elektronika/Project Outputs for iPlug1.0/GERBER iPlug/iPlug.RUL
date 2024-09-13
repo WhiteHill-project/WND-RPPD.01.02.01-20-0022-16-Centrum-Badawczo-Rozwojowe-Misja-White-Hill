@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: E:\PROJEKTY\WHITEHILL\iPlug1.0\Pcb\iPlug.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit_1|Scope=Board|Allowed=0
+RuleKind=ShortCircuit|RuleName=ShortCircuit_2|Scope=Board|Allowed=0
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_2|Scope=Board|Minimum=-30.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=kepout|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=Clearance|RuleName=Clearance obud|Scope=Board|Minimum=7.60
+RuleKind=Clearance|RuleName=poly|Scope=Board|Minimum=12.00
